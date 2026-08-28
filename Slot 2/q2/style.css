@@ -1,0 +1,50 @@
+.top {
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    height: auto;
+    width: 97%;
+}
+
+.middle {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    margin-left: 3%;
+    margin-right: 3%;
+    
+}
+
+.middle-bottom {
+    display: grid;
+    grid-template-columns: 67% 29%;
+
+    gap: 3%;
+    
+
+}
+
+.type{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    padding: 10px;
+    gap: 10px;
+}
+
+.left{
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.right{
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.main{
+    background-color: #f4f7fb;
+}
